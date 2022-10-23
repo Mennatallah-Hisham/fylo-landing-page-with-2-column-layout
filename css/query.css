@@ -1,0 +1,147 @@
+/**************************************************/
+/************** ************/
+/**************************************************/
+
+@media (min-width: 769px) {
+  /**************************************************/
+  /**************general ************/
+  /**************************************************/
+
+  *,
+  .heading-primary,
+  .heading {
+    text-align: left;
+  }
+  .heading-primary,
+  .sub-heading {
+    margin-bottom: var(--margin-sm);
+  }
+
+  .frow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .frow-reverse {
+    flex-direction: row-reverse;
+  }
+
+  p {
+    max-width: 50rem;
+    margin-inline: 0;
+  }
+
+  /**************************************************/
+  /**************nav  ************/
+  /**************************************************/
+
+  .main-nav-list {
+    display: flex;
+    align-items: center;
+    gap:2rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.8rem;
+    color: var(--clr-primary);
+  }
+  .main-nav-link:hover,
+  .main-nav-link:active {
+    border-bottom: 3px solid var(--clr-primary);
+  }
+  .btn-mobile-nav {
+    display: none;
+  }
+
+  /**************************************************/
+  /************** ************/
+  /**************************************************/
+
+  .productive-img,
+  .hero-img {
+    max-width: 30rem;
+  }
+  .sec-hero,
+  .sec-productive {
+    padding: 8rem 0;
+  }
+
+  .review-card {
+    max-width: 40rem;
+    margin-left: 0;
+  }
+
+  .sec-productive {
+    padding-top: 4rem;
+  }
+  /**************************************************/
+  /**************form ************/
+  /**************************************************/
+
+  form {
+    width: 100%;
+    max-width: 40rem;
+    margin-left: 0;
+  }
+  .cta-form input {
+    width: 100%;
+  }
+  .cta-form button {
+    max-width: 20rem;
+  }
+
+  /**************************************************/
+  /**************footer ************/
+  /**************************************************/
+  footer p {
+    font-size: 1.4rem;
+  }
+
+  .footer-logo {
+    margin-left: 0;
+  }
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .social-links {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+}
+
+@media (min-width: 900px) {
+  .heading-primary {
+    font-size: 4rem;
+  }
+  .heading {
+    font-size: 2.8rem;
+  }
+
+  .productive-img,
+  .hero-img {
+    max-width: 50rem;
+  }
+  .footer-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .social-links {
+    grid-column: 4/5;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 80%;
+    max-width: 1700px;
+  }
+
+  p {
+    max-width: 55rem;
+  }
+
+  .sec-hero {
+    height: calc(100vh - 200px);
+  }
+}
