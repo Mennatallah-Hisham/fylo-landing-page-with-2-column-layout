@@ -36,10 +36,10 @@
       </nav>
 
       <button class="btn-mobile-nav">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon-mobile-nav  icon-open">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon-mobile-nav  icon-open" aria-label="open navbar">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon-mobile-nav  icon-close hide">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon-mobile-nav  icon-close hide" aria-label="close navbar">
           <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
         </svg>
                 
@@ -62,7 +62,7 @@
             and co-workers.
           </p>
 
-          <form class="hero-form" action="">
+          <form class="hero-form" >
             <input aria-label="email" type="email" placeholder="enter your email" required />
             <button class="btn" type="submit">get started</button>
           </form>
@@ -72,9 +72,9 @@
 
 <!-- productive -->
 
-  <picture class="curve" aria-hidden="true">
+  <picture class="curve" >
     <source media="(max-width:760px)" srcset="./images/bg-curve-mobile.svg"/>
-    <img src="./images/bg-curve-desktop.svg" alt="" />
+    <img src="./images/bg-curve-desktop.svg" alt="" aria-hidden="true" />
   </picture>
  
 
@@ -95,12 +95,13 @@
                       Securely share files and folders with friends, family and colleagues
                       for live collaboration. No email attachments required!
                     </p>
-                    <a href="#" class="link"> see how Fylo works <img src="images/icon-arrow.svg" alt="Arrow icon" class="arrow-icon"aria-hidden="true"/></a>
+                    <a href="#" class="link"> see how Fylo works <img src="images/icon-arrow.svg" alt="Arrow icon" class="arrow-icon" aria-hidden="true"/></a>
 
                 </div>
               
 
                 <div class="review-card">
+                 
                     <img class="quote-icon" src="./images/icon-quotes.svg" alt="" aria-hidden="true"/>
                     <p class="review-txt">
                       Fylo has improved our team productivity by an order of magnitude.
@@ -123,7 +124,9 @@
                       </div>
 
 
+                    </div>
 
+                    </div>
 
         </div>
        </section>
@@ -135,7 +138,11 @@
 
       <!-- cta -->
       <section class="sec-cta">
+
+
+
         <div class="container frow ">
+          
             <div class="cta-content">
                 <span class="sub-heading"> Get early access today</span>
                 <p class="margin-bottom">
@@ -144,9 +151,10 @@
                   would be happy to help you.
                 </p>
               </div>
+
               <form class="cta-form">
                 <input aria-label="email" type="email" placeholder="email@example.com" required />
-                <button class="btn"type="submit">get started for free</button>
+                <button class="btn" type="submit">get started for free</button>
               </form>
 
         </div>

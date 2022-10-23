@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
   }
 
   .frow-reverse {
@@ -83,6 +84,11 @@
     width: 100%;
     max-width: 40rem;
     margin-left: 0;
+
+  }
+  .cta-form{
+    display: block;
+    margin-inline: auto;
   }
   .cta-form input {
     width: 100%;
@@ -133,13 +139,11 @@
 
 @media (min-width: 1200px) {
   .container {
-    width: 80%;
+    width: 85%;
     max-width: 1700px;
   }
 
-  p {
-    max-width: 55rem;
-  }
+
 
   .sec-hero {
     height: calc(100vh - 200px);
